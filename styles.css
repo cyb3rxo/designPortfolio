@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&display=swap');
 
 * {
     margin: 0;
@@ -7,7 +8,7 @@
     font-family: "Quintessential", serif;
 }
 body {
-    background: #352F44;
+    background: #FAF0E6;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,7 +16,40 @@ body {
     height: 100vh;
 }
 
-h1 {
-    color: #FAF0E6;
+.comingSoon {
+    background: #B9B4C7;
+    padding: 24px 34px;
+    border-radius: 16px;
+    box-shadow: 5px 5px #352F44;
+}
+
+.comingSoon span{
+    color: #352F44;
     font-size: 5rem;
+    font-weight: 1000;
+}
+
+p{
+    color: #352F44;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#countDown {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.time-component {
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-size: 72px;
 }
