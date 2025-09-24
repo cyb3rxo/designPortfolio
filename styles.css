@@ -21,7 +21,7 @@ body {
     padding: 24px 34px;
     border-radius: 16px;
     box-shadow: 5px 5px #352F44;
-    border: 1px #352F44;
+    border: 5px #352F44;
 }
 
 .comingSoon span{
@@ -53,4 +53,5 @@ p{
 .time-component {
     font-family: "Alumni Sans Pinstripe", sans-serif;
     font-size: 72px;
+
 }
