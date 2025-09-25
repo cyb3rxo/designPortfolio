@@ -20,8 +20,8 @@ body {
     background: #B9B4C7;
     padding: 24px 34px;
     border-radius: 16px;
-    box-shadow: 5px 5px #352F44;
-    border: 5px solid #352F44;
+    box-shadow: 5px 5px #5C5470;
+    border: 5px solid #B9B4C7;
 }
 
 .comingSoon span{
@@ -55,4 +55,5 @@ p{
     font-size: 72px;
 
 }
+
 
